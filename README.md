@@ -1,6 +1,6 @@
 # Introduction to PDO
 
-Before working through these practical exercises, it's probably worth having a look at these [notes](https://github.com/CIT2202/intro-to-pdo/blob/master/notes.md). They explain the basics of working with a databse using the PDO extension. 
+Before working through these practical exercises, it's probably worth having a look at these [notes](https://github.com/CIT2202/intro-to-pdo/blob/main/notes.md). They explain the basics of working with a database using the PDO extension. 
 
 ## Setting up
 This practical is about using PHP to work with a MySQL database. We will work with the films database we created in the practical last week (this is the database with multiple tables - films, certificates, genres etc.). If you don't have this from last week, you can grab the  *films-db.sql* file from https://github.com/CIT2202/sql-joins/blob/master/films-db.sql.
