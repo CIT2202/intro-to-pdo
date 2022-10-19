@@ -1,6 +1,6 @@
 <?php
 try{
-    $conn = new PDO('mysql:host=localhost;dbname=cit2202', 'root', '');
+    $conn = new PDO('mysql:host=localhost;dbname=cit2202', 'root', 'letmein');
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 }
 catch (PDOException $exception)
