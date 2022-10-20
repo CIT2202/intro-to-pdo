@@ -39,7 +39,7 @@ if($films){
 	
 //Q2 Modify the above code so that that the year of release is displayed next to each film e.g. Winter's Bone (2010)
 
-//Q3 Modify the above code so that it only shows films that were made in 2004 (change the SQL statement)
+//Q3 Modify the above code so that it only shows films that were made in 2004 (change line 11, the SQL statement )
 
 //Q4 Modify the above code so that it only shows films that have a title that contains the word 'the'
 
