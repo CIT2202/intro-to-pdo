@@ -42,8 +42,8 @@ if($chosenFilm){
 //Q2 Modify the above code so that, instead of an id number, the user can enter a title into form.html.
 //   prepared-stmt.php should display the title of the matching film
 
-//Q3 Modify the above code so that it shows further details for the film, 
-//   e.g. Winter's Bone (15) was released in 2010 and is 100 minutes in length. 
+//Q3 Modify the above code so that it shows further details for the film, the certificate, year and duration
+//   e.g. Spirited Away (PG) was released in 2001 and is 124 minutes in length. 
 
 ?>
 
