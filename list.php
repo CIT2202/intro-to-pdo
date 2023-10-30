@@ -28,9 +28,9 @@ $conn=NULL;
 if($films){
 	//loop over the array of films and display their title
 	foreach ($films as $film) {
-	    echo "<p>";
-	    echo {$film['title']}
-            echo "</p>";
+		echo "<p>";
+		echo {$film['title']}
+		echo "</p>";
 	}
 }else{
 	echo "<p>No records found.</p>";
