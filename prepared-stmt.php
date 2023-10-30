@@ -7,11 +7,11 @@ catch (PDOException $exception)
 {
 	echo "Oh no, there was a problem" . $exception->getMessage();
 }
-$usersChosenId = $_POST["filmid"];
+$filmId = $_POST["filmid"];
 
 $query = "SELECT * FROM films WHERE films.id = :id";
 $stmt = $conn->prepare($query);
-$stmt->bindValue(':id', $usersChosenId);
+$stmt->bindValue(':id', $filmId);
 $stmt->execute();
 $chosenFilm = $stmt->fetch();
 $conn=NULL;
