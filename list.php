@@ -1,6 +1,6 @@
 <?php
 try{
-    $conn = new PDO('mysql:host=localhost;dbname=cit2202', 'root', 'letmein');
+    $conn = new PDO('mysql:host=localhost;dbname=MyDatabase', 'MyUsername', 'MyPassword');
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 }
 catch (PDOException $exception)
@@ -8,7 +8,7 @@ catch (PDOException $exception)
 	echo "Oh no, there was a problem" . $exception->getMessage();
 }
 
-$query = "SELECT * FROM films";
+$query = "SELECT title, year FROM films";
 $resultset = $conn->query($query);
 $films = $resultset->fetchAll();
 $conn=NULL;
@@ -43,8 +43,10 @@ if($films){
 
 //Q4 Modify the above code so that it only shows films that have a title that contains the word 'the'
 
-//Q5 Modify the above code so that it displays the number of films in the database i.e. 'There are 16 films in the database'. 
-//   You will need to change the SQL and use fetch() instead of fetchAll(). 
+//Q5 Change your code so that it shows all the films again and then make further changes so that the full details for each film are shown film e.g. 'The Incredibles was made in 2004. It is 115 minutes in length.'
+
+//Q6 Modify the above code so that it displays the number of films in the database i.e. 'There are 16 films in the database'. 
+//   You will need to run a second query and use fetch(). 
 //   See https://github.com/CIT2202/pdo-simple-crud/blob/master/pdo-php-databases.md#fetchall-vs-fetch
 ?>
 

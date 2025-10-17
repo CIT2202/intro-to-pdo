@@ -1,6 +1,6 @@
 <?php
 try{
-    $conn = new PDO('mysql:host=localhost;dbname=cit2202', 'root', 'letmein');
+     $conn = new PDO('mysql:host=localhost;dbname=MyDatabase', 'MyUsername', 'MyPassword');
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 }
 catch (PDOException $exception)
@@ -9,7 +9,7 @@ catch (PDOException $exception)
 }
 $filmId = $_POST["filmid"];
 
-$query = "SELECT * FROM films WHERE films.id = :id";
+$query = "SELECT id, title FROM films WHERE films.id = :id";
 $stmt = $conn->prepare($query);
 $stmt->bindValue(':id', $filmId);
 $stmt->execute();
