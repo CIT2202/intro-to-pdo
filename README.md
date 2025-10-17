@@ -26,8 +26,8 @@ Now move onto [Completing the practical work](#practical)
 
 Now move onto [Completing the practical work](#practical)
 
-
-## Using ```query``` <a id="practical"></a>
+## Completing the practical work <a id="practical"></a>
+### Using ```query```
 * In a text editor open *list.php*. Change the connection settings to match your database. This is the line you need to change
 
 ```
@@ -44,6 +44,6 @@ If you are using XAMPP you will need to change _MyDatabase_, _MyUsername_ and _M
 - View _index.php_ in a browser. You should see a list of films.
 * Answer the questions in this file.
 
-## Using prepared statements
+### Using prepared statements
 ```query``` is fine to use when we are running queries that don't use input from the user, but a lot of the time we will use data the user has entered as part of the query. To do this we need to use prepared statements. 
 * In a text editor open *form.html* and *prepared-stmt.php*. Change the database settings in *prepared-stmt.php* and answer the questions.
