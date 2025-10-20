@@ -45,7 +45,13 @@ if($chosenFilm){
 //Q3 Modify the above code so that it shows further details for the film, the certificate, year and duration
 //   e.g. Spirited Away (PG) was released in 2001 and is 124 minutes in length. 
 
+//Q4 Add some basic validation and error checking. E.g. making sure the user has submitted the form, making sure they entered a title. 
+
+//Q5 At the moment the user has to enter an exact title to get a match. How can you make the matching more flexible - think about using a LIKE in the SQL. 
+//   If you can get this to work you will get multiple results instead of a single film. How can you show all the films that match the query?
+
 ?>
 
 </body>
 </html>
+
