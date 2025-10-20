@@ -188,7 +188,3 @@ We still use ```fetch()``` or ```fetchAll()``` to retrieve the result of our que
 
 Take a bit of time to compare the use of the ```query()``` method and prepared statements.
 
-## Implementing Basic CRUD functionality.
-Using these basic techniques we can implement CRUD functionality for a web application. The best way to understand how to do this is to run some simple examples and examine the code.
-
-The following github repository https://github.com/CIT2202/pdo-simple-crud contains CRUD examples for working with a countries table
