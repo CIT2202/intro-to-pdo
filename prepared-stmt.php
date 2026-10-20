@@ -34,10 +34,8 @@ if($chosenFilm){
 	echo "<p>No records found.</p>";
 }
 
-//Q1 On line 3 change the connection settings to match the database name, username and password you created last week in the MySQL practical.
-//   Make sure form.html and prepared-stmt are on a web server.
-//   test this works by entering an id into form.html, and clicking submit.
-//   prepared-stmt.php should show the relevant film.
+//Q1 On line 3 change the connection settings to match your database.
+//   test the app works by entering an id into form.html, and clicking submit. The selected film should be displayed.
 
 //Q2 Modify the above code so that, instead of an id number, the user can enter a title into form.html.
 //   prepared-stmt.php should display the title of the matching film
