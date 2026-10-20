@@ -7,6 +7,7 @@ catch (PDOException $exception)
 {
 	echo "Oh no, there was a problem" . $exception->getMessage();
 }
+
 $filmId = $_POST["filmid"];
 
 $query = "SELECT id, title FROM films WHERE films.id = :id";
