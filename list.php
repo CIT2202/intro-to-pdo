@@ -41,9 +41,9 @@ if($films){
 
 //Q3 Modify the above code so that it only shows films that have a title that contains the word 'the'
 
-//Q4 Change your code so that it shows all the films again and then make further changes so that the full details for each film are shown film e.g. 'The Incredibles was made in 2004. It is 115 minutes in length.'
+//Q4 Change your code back so that it shows all the films again and then make further changes so that the full details for each film are shown film e.g. 'The Incredibles was made in 2004. It is 115 minutes in length.'
 
-//Q5 Modify the above code so that it displays the number of films in the database i.e. 'There are 16 films in the database'. 
+//Q5 Modify the above code so that it also displays the number of films in the database e.g. 'There are 16 films in the database'. 
 //   You will need to run a second query and use fetch(). 
 //   See https://github.com/CIT2202/pdo-simple-crud/blob/master/pdo-php-databases.md#fetchall-vs-fetch
 ?>
